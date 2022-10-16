@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/editTextDistancia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="@string/distancia"
+        android:inputType="number|numberDecimal"
+        android:paddingTop="16dp" />
+
+    <TextView
+        android:id="@+id/textView_totalKm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="@string/total_de_quilometros"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextPreco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/preco"
+        android:inputType="number|numberDecimal"
+        android:paddingTop="16dp" />
+
+    <TextView
+        android:id="@+id/textView_precoporlitro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="@string/preco_por_litro"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextAutonomia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/autonomia"
+        android:inputType="number|numberDecimal"
+        android:paddingTop="16dp" />
+
+    <TextView
+        android:id="@+id/textView_kmsporlitro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kms_por_litro"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="64dp"
+        android:text="@string/gasto_total"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewValorTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FF5722"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="@string/calcular"
+        android:textSize="16sp"
+        app:backgroundTint="#FF5722" />
+</LinearLayout>

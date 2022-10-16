@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="laranja_claro">#FFC107</color>
+    <color name="laranja_escuro">#FF9800</color>
+    <color name="laranja_forte">#FF5722</color>
+    <color name="teal_200">#CDDC39</color>
+    <color name="teal_700">#FFEB3B</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+</resources>
